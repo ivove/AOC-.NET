@@ -39,6 +39,7 @@ while (!string.IsNullOrEmpty(secret))
 #endregion
 
 #region Day5
+/*
 Console.WriteLine(Day5.Part1());
 Console.WriteLine(Day5.Part2());
 Console.Write("test : ");
@@ -50,4 +51,10 @@ while (!string.IsNullOrEmpty(str))
     Console.Write("test : ");
     str = Console.ReadLine();
 }
+*/
+#endregion
+
+#region Day6
+Console.WriteLine(Day6.Part1());
+Console.WriteLine(Day6.Part2());
 #endregion
