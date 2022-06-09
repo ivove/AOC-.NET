@@ -55,6 +55,13 @@ while (!string.IsNullOrEmpty(str))
 #endregion
 
 #region Day6
+/*
 Console.WriteLine(Day6.Part1());
 Console.WriteLine(Day6.Part2());
+*/
+#endregion
+
+#region Day7
+Console.WriteLine(Day7.Part1());
+Console.WriteLine(Day7.Part2());
 #endregion
