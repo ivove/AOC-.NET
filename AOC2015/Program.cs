@@ -62,6 +62,15 @@ Console.WriteLine(Day6.Part2());
 #endregion
 
 #region Day7
+/*
 Console.WriteLine(Day7.Part1());
 Console.WriteLine(Day7.Part2());
+*/
+#endregion
+
+#region Day8
+/*
+Console.WriteLine(Day8.Part1());
+Console.WriteLine(Day8.Part2());
+*/
 #endregion
