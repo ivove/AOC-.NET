@@ -74,3 +74,8 @@ Console.WriteLine(Day8.Part1());
 Console.WriteLine(Day8.Part2());
 */
 #endregion
+
+#region Day9
+Console.WriteLine(Day9.Part1());
+Console.WriteLine(Day9.Part2());
+#endregion

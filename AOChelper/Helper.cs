@@ -39,5 +39,23 @@
 
             return Convert.ToHexString(hashBytes); // .NET 5 +
         }
+
+        public static void Permute(IEnumerable<string> source,List<string> permutations, string currentPath = "")
+        {
+            if (!source.Any())
+            {
+                if (permutations == null)
+                {
+                    permutations = new List<string>();
+                }
+                permutations.Add(currentPath.Substring(1));
+            }
+            foreach(var item in source)
+            {
+                var newPath = currentPath + "|" + item;
+                var newSource = source.Where(x => x != item);
+                Permute(newSource, permutations, newPath);
+            }
+        }
     }
 }
